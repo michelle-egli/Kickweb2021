@@ -1,0 +1,59 @@
+h1{
+    font-size: 5em;
+    text-align: right;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 70px;
+    word-spacing: 10px;
+    letter-spacing: 20px;
+    text-decoration: none;
+    text-transform: none;
+    text-shadow: -4px 0px 1px grey, -8px 0px 5px rgb(168, 131, 131), -12px 0px 9px rgb(235, 165, 165);
+    margin: 100px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: left;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 80px;
+    word-spacing: none;
+    letter-spacing: 30px;
+    text-decoration: none;
+    text-shadow: -2px 1px 1px white, -4px 2px 1px lightgoldenrodyellow, -6px 3px 1px lightsalmon, -8px 4px 1px lightpink, -10px 5px 1px lightsteelblue, -12px 6px 1px lightseagreen;
+    margin: 100px;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    font-weight: inherit;
+    font-style: oblique;
+    line-height: 90px;
+    word-spacing: 60px;
+    letter-spacing: 50px;
+    text-decoration: underline white;
+    text-shadow: none;
+}
+
+.var1{
+    font-style: italic;
+}
+
+.var2{
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.var3{
+    font-weight: 900;
+}
+
+body{
+    background-color: lightcoral;
+    margin: 100px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+

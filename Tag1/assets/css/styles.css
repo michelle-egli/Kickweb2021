@@ -1,0 +1,51 @@
+h1{
+    color: #000000;
+    font-family: 'Syncopate', sans-serif;
+    font-family: 'Viga', sans-serif;
+    font-size: 250px;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+p{
+    margin-top: 50px;
+}
+
+body{
+    background-color: rgb(138, 161, 159);
+    margin: 100px;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.unterschrift{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+    color: cornsilk;
+    margin-top: 20px;
+    clear: both;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-color: cornsilk;
+}
+
+.table{
+    float: left;
+}
+
+.catimage{
+    float: right;
+    width: 20%;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
+  
+.catimage:hover {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
+  }
+
+
