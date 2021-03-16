@@ -15,20 +15,11 @@ img{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;
     text-align: right;
-    word-spacing: 10px;
+    word-spacing: 30px;
     color: #1a1a1a;
-    margin-right: 80px;
+    margin-right: 20px;
 }
 
-.fontlight2{
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 20px;
-    text-align: right;
-    word-spacing: 20px;
-    color: #1a1a1a;
-    margin-right: 80px;
-
-}
 
 body{
     background-color: #f1e3c6;
@@ -37,31 +28,81 @@ body{
 .content{
     display: flex;
     text-align: center;
-
 }
 
 .YPOGRAPHIE{
     font-size: 100px;
     font-family: 'Nunito Sans Bold', sans-serif;
-    background-color: #1a1a1a;
     color: #f1e3c6;
-    width: 30%; 
-    margin: 10px;
+    width: 40%; 
+    margin: 5px;
+
+    /*mirror content */
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
 }
 
 .row1{
     text-align: center;
+    font-size: 200px;
+    font-family: 'Nunito Sans Bold', sans-serif;
+    color: #f1e3c6;
 }
+
+.row1 p{
+    background-color: #1a1a1a;
+    margin: 5px;
+}
+
 
 .row2{
     display: flex;
     margin: 5px;
+    font-size: 100px;
+    font-family: 'Nunito Sans Bold', sans-serif;
+    color: #f1e3c6;
 }
 
 .row2 p {
     /*flex: 1 1 0px;*/
     width: 50%;
-    margin: 10px;
+    margin: 5px;
+    background-color: #1a1a1a;
+    margin: 5px;
+}
+
+.row3{
+    display: flex;
+    margin: 5px;
+    font-size: 100px;
+    font-family: 'Nunito Sans Bold', sans-serif;
+    color: #f1e3c6;
+}
+
+.row3 p{
+    width: 50%;
+    margin: 5px;
+    background-color: #1a1a1a;
+    margin: 5px;
+}
+
+.row4{
+    display: flex;
+    margin: 5px;
+    font-size: 100px;
+    font-family: 'Nunito Sans Bold', sans-serif;
+    color: #f1e3c6;
+}
+
+.row4 p{
+    width: 50%;
+    margin: 5px;
+    background-color: #1a1a1a;
+    margin: 5px;
 }
 
 .T{
@@ -71,9 +112,12 @@ body{
     color: #f1e3c6;
     text-align: right;
     width: 70%;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
+}
 
+.T p{
+    margin: 5px;
 }
 
 

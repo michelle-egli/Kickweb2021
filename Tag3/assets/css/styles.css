@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Work Sans';
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+
+}
+.box>div{
+    border:1px solid black;
+}
+.box div.text {
+    width: 500px;
+    height: 500px;
+    background-color:lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:144px;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transform-origin:top left; /*auskommentieren, dann rotiert das element um das zentrum */
+
+}
+
+.box div.text:hover{
+    background-color:black;
+    color:white;
+    transform:rotate(45deg);
+}
