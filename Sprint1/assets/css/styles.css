@@ -9,50 +9,6 @@ img{
 }
 */
 
-/*animation1: animation T from right side in*/
-@keyframes animation1 {
-    from {
-        /*transform: scale(0);*/
-        transform: translateX(200%); 
-    }
-    to {
-        /*transform: scale(100%);*/
-        transform: translateX(0); 
-    }
-}
-.a1{
-    animation-name: animation1;
-    animation-duration: 2s;
-}
-
-/*animationHeader: animation header from top in*/
-@keyframes animationHeader {
-    from {
-        transform: translateY(-200%); 
-    }
-    to {
-        transform: translateY(0); 
-    }
-}
-.aHeader{
-    animation-name: animationHeader;
-    animation-duration: 2s;
-}
-
-/*animation2: animation YPOGRAPHIE from left side in*/
-@keyframes animation2{
-    from {
-        transform: translateX(-200%);    
-    }
-    to {
-        transform: translateX(0); 
-    }
-}
-.a2{
-    animation-name: animation2;
-    animation-duration: 2s;
-}
-
 .headers{
     width: 1000px;
     margin: auto;
