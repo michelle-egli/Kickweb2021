@@ -9,104 +9,93 @@ img{
 }
 */
 
+html, body {margin: 0; height: 100%; overflow: hidden}
+
 /*animation1: animation T from right side in*/
 @keyframes animation1 {
-    from {
+    0%, 25% {
         /*transform: scale(0);*/
-        transform: translateX(200%) scale(-1,1); 
+        transform: translateX(300%) scale(-1,1); 
     }
-    to {
+    100% {
         /*transform: scale(100%);*/
         transform: translateX(0) scale(1,1); 
-    }
+        }
 }
 .a1{
     animation-name: animation1;
-    animation-duration: 3s;
+    animation-duration: 4s;
 }
 
 /*animationHeader: animation header from top in*/
 @keyframes animationHeader {
-    from {
+    0%, 80%{
         transform: translateY(-200%); 
     }
-    to {
+    100% {
         transform: translateY(0); 
     }
 }
 .aHeader{
     animation-name: animationHeader;
-    animation-duration: 3s;
+    animation-duration: 14s;
 }
 
-/*animation2: animation YPOGRAPHIE from left side in*/
-@keyframes animation2{
-    from {
-        transform: translateX(-200%);    
-    }
-    to {
-        transform: translateX(0); 
-    }
-}
-.a2{
-    animation-name: animation2;
-    animation-duration: 2s;
-}
 
 @keyframes animationRow1{
-    from {
+    0%, 75% {
         transform: translateY(-200%) scale(-1,1);
     }
-    to {
+    100% {
         transform: translateY(0) scale(1,1);
     }
 }
 
 .aRow1{
     animation-name: animationRow1;
-    animation-duration: 2s;
+    animation-duration: 8s;
 }
 
 @keyframes animationRow2{
-    from {
-        transform: translateY(-100%) scale(-1,1);
+    0%, 67%  {
+        transform: translateY(-400%) scale(-1,1);
     }
-    to {
+    100% {
         transform: translateY(0) scale(1,1);
     }
 }
 
 .aRow2{
     animation-name: animationRow2;
-    animation-duration: 2s;
+    animation-duration: 6s;
 }
 
 @keyframes animationRow3{
-    from {
-        transform: translateY(100%) scale(-1,1);
+    0%, 80% {
+        transform: translateX(400%) scale(-1,1);
     }
-    to {
-        transform: translateY(0) scale(1,1);
+    100% {
+        transform: translateX(0) scale(1,1);
     }
 }
 
 .aRow3{
     animation-name: animationRow3;
-    animation-duration: 2s;
+    animation-duration: 10s;
 }
 
 @keyframes animationRow4{
-    from {
-        transform: translateX(200%) scale(-1,1);
+    0%, 83%  {
+        transform: translateY(400%) scale(-1,1);
     }
-    to {
-        transform: translateX(0) scale(1,1);
+    100% {
+        transform: translateY(0) scale(1,1);
     }
 }
 
 .aRow4{
     animation-name: animationRow4;
-    animation-duration: 2s;
+    animation-duration: 12s;
 }
 
 .headers{
