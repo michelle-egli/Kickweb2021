@@ -9,25 +9,11 @@ img{
 }
 */
 
+/*makes the scrollbar dissapear*/
 html, body {margin: 0; height: 100%; overflow: hidden}
 
-/*animation1: animation T from right side in*/
-@keyframes animation1 {
-    0%, 25% {
-        /*transform: scale(0);*/
-        transform: translateX(300%) scale(-1,1); 
-    }
-    100% {
-        /*transform: scale(100%);*/
-        transform: translateX(0) scale(1,1); 
-        }
-}
-.a1{
-    animation-name: animation1;
-    animation-duration: 4s;
-}
 
-/*animationHeader: animation header from top in*/
+/*animationHeader: header "Emil Ruder...""*/
 @keyframes animationHeader {
     0%, 80%{
         transform: translateY(-200%); 
@@ -41,8 +27,24 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     animation-duration: 14s;
 }
 
+/*animation1:  T */
+@keyframes animationaT {
+    0%, 25% {
+        /*transform: scale(0);*/
+        transform: translateX(300%) scale(-1,1); 
+    }
+    100% {
+        /*transform: scale(100%);*/
+        transform: translateX(0) scale(1,1); 
+        }
+}
+.aT{
+    animation-name: animationaT;
+    animation-duration: 4s;
+}
 
-@keyframes animationRow1{
+/*animation: Y */
+@keyframes animationaY{
     0%, 75% {
         transform: translateY(-200%) scale(-1,1);
     }
@@ -50,13 +52,13 @@ html, body {margin: 0; height: 100%; overflow: hidden}
         transform: translateY(0) scale(1,1);
     }
 }
-
-.aRow1{
-    animation-name: animationRow1;
+.aY{
+    animation-name: animationaY;
     animation-duration: 8s;
 }
 
-@keyframes animationRow2{
+/* animation: P1*/
+@keyframes animationaP1{
     0%, 67%  {
         transform: translateY(-400%) scale(-1,1);
     }
@@ -64,27 +66,69 @@ html, body {margin: 0; height: 100%; overflow: hidden}
         transform: translateY(0) scale(1,1);
     }
 }
-
-.aRow2{
-    animation-name: animationRow2;
+.aP1{
+    animation-name: animationaP1;
     animation-duration: 6s;
 }
 
-@keyframes animationRow3{
+/* animation: O*/
+@keyframes animationaO{
+    0%, 67%  {
+        transform: translateY(-400%) scale(-1,1);
+    }
+    100% {
+        transform: translateY(0) scale(1,1);
+    }
+}
+.aO{
+    animation-name: animationaO;
+    animation-duration: 6s;
+}
+
+/* G */
+@keyframes animationaG{
     0%, 80% {
-        transform: translateX(400%) scale(-1,1);
+        transform: translateX(1500%) scale(-1,1);
     }
     100% {
         transform: translateX(0) scale(1,1);
     }
 }
-
-.aRow3{
-    animation-name: animationRow3;
+.aG{
+    animation-name: animationaG;
     animation-duration: 10s;
 }
 
-@keyframes animationRow4{
+/* R */
+@keyframes animationaR{
+    0%, 80% {
+        transform: translateX(1500%) scale(-1,1);
+    }
+    100% {
+        transform: translateX(0) scale(1,1);
+    }
+}
+.aR{
+    animation-name: animationaR;
+    animation-duration: 10s;
+}
+
+/* A */
+@keyframes animationaA{
+    0%, 80% {
+        transform: translateX(1500%) scale(-1,1);
+    }
+    100% {
+        transform: translateX(0) scale(1,1);
+    }
+}
+.aA{
+    animation-name: animationaA;
+    animation-duration: 10s;
+}
+
+/* P */
+@keyframes animationaP2{
     0%, 83%  {
         transform: translateY(400%) scale(-1,1);
     }
@@ -92,9 +136,50 @@ html, body {margin: 0; height: 100%; overflow: hidden}
         transform: translateY(0) scale(1,1);
     }
 }
+.aP2{
+    animation-name: animationaP2;
+    animation-duration: 12s;
+}
 
-.aRow4{
-    animation-name: animationRow4;
+/* H */
+@keyframes animationaH{
+    0%, 83%  {
+        transform: translateY(400%) scale(-1,1);
+    }
+    100% {
+        transform: translateY(0) scale(1,1);
+    }
+}
+.aH{
+    animation-name: animationaH;
+    animation-duration: 12s;
+}
+
+/* I */
+@keyframes animationaI{
+    0%, 83%  {
+        transform: translateY(400%) scale(-1,1);
+    }
+    100% {
+        transform: translateY(0) scale(1,1);
+    }
+}
+.aI{
+    animation-name: animationaI;
+    animation-duration: 12s;
+}
+
+/* E */
+@keyframes animationaE{
+    0%, 83%  {
+        transform: translateY(400%) scale(-1,1);
+    }
+    100% {
+        transform: translateY(0) scale(1,1);
+    }
+}
+.aE{
+    animation-name: animationaE;
     animation-duration: 12s;
 }
 
