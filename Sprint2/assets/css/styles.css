@@ -1,0 +1,264 @@
+/*
+Reference Image Emil Ruder:
+
+img{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+*/
+
+/*animation1: animation T from right side in*/
+@keyframes animation1 {
+    from {
+        /*transform: scale(0);*/
+        transform: translateX(200%) scale(-1,1); 
+    }
+    to {
+        /*transform: scale(100%);*/
+        transform: translateX(0) scale(1,1); 
+    }
+}
+.a1{
+    animation-name: animation1;
+    animation-duration: 3s;
+}
+
+/*animationHeader: animation header from top in*/
+@keyframes animationHeader {
+    from {
+        transform: translateY(-200%); 
+    }
+    to {
+        transform: translateY(0); 
+    }
+}
+.aHeader{
+    animation-name: animationHeader;
+    animation-duration: 3s;
+}
+
+/*animation2: animation YPOGRAPHIE from left side in*/
+@keyframes animation2{
+    from {
+        transform: translateX(-200%);    
+    }
+    to {
+        transform: translateX(0); 
+    }
+}
+.a2{
+    animation-name: animation2;
+    animation-duration: 2s;
+}
+
+@keyframes animationRow1{
+    from {
+        transform: translateY(-200%) scale(-1,1);
+    }
+    to {
+        transform: translateY(0) scale(1,1);
+    }
+}
+
+.aRow1{
+    animation-name: animationRow1;
+    animation-duration: 2s;
+}
+
+@keyframes animationRow2{
+    from {
+        transform: translateY(-100%) scale(-1,1);
+    }
+    to {
+        transform: translateY(0) scale(1,1);
+    }
+}
+
+.aRow2{
+    animation-name: animationRow2;
+    animation-duration: 2s;
+}
+
+@keyframes animationRow3{
+    from {
+        transform: translateY(100%) scale(-1,1);
+    }
+    to {
+        transform: translateY(0) scale(1,1);
+    }
+}
+
+.aRow3{
+    animation-name: animationRow3;
+    animation-duration: 2s;
+}
+
+@keyframes animationRow4{
+    from {
+        transform: translateX(200%) scale(-1,1);
+    }
+    to {
+        transform: translateX(0) scale(1,1);
+    }
+}
+
+.aRow4{
+    animation-name: animationRow4;
+    animation-duration: 2s;
+}
+
+.headers{
+    width: 1000px;
+    margin: auto;
+    text-align: right;
+    padding-right: 314px;
+    padding-bottom: 12px;
+    padding-top: 150px;
+}
+
+.fontlight1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    text-align: right;
+    word-spacing: 15px;
+    color: #1a1a1a;
+    display: inline;
+    margin: 50px;
+}
+
+.fontlight2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    text-align: right;
+    word-spacing: 50px;
+    color: #1a1a1a;
+    display: inline;
+}
+
+body{
+    background-color: #f1e3c6;
+}
+
+.content{
+    display: flex;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+}
+
+.YPOGRAPHIE{
+    font-size: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #f1e3c6;
+    width: 40%; 
+    margin: 5px;
+
+    /*mirror content */
+    transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+.row1{
+    text-align: center;
+    font-size: 250px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #f1e3c6;
+}
+
+.row1 p{
+    background-color: #1a1a1a;
+    border-radius: 1px;
+    margin: 5px;
+    margin-top: 0;
+    padding-bottom: 30px;
+    line-height: 217px;
+}
+
+
+.row2{
+    display: flex;
+    font-size: 140px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #f1e3c6;
+}
+
+.row2 p {
+    /*flex: 1 1 0px;*/
+    width: 50%;
+    background-color: #1a1a1a;
+    border-radius: 1px;
+    margin: 5px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    line-height: 135px;
+}
+
+.row3{
+    display: flex;
+    font-size: 80px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #f1e3c6;
+}
+
+.row3 p{
+    width: 50%;
+    margin: 5px;
+    background-color: #1a1a1a;
+    border-radius: 1px;
+    margin: 5px;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    line-height: 90px;
+}
+
+.row4{
+    display: flex;
+    font-size: 60px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    color: #f1e3c6;
+}
+
+.row4 p{
+    width: 50%;
+    margin: 5px;
+    margin-bottom: 0;
+    background-color: #1a1a1a;
+    border-radius: 1px;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    line-height: 70px;
+}
+
+.T{
+    font-size: 700px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    background-color: #1a1a1a;
+    border-radius: 1px;
+    color: #f1e3c6;
+    text-align: right;
+    width: 70%;
+    margin: 5px;
+    text-align: center;
+    line-height: 546px;
+    
+}
+
+.T p{
+    margin: 5px;
+}
+
+
