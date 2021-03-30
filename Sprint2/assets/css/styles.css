@@ -13,7 +13,9 @@ img{
 html, body {margin: 0; height: 100%; overflow: hidden}
 
 
-/*animationHeader: header "Emil Ruder...""*/
+
+/* ANIMATIONS */
+/* header "Emil Ruder...""*/
 @keyframes animationHeader {
     0%, 80%{
         transform: translateY(-200%); 
@@ -24,10 +26,10 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 .aHeader{
     animation-name: animationHeader;
-    animation-duration: 14s;
+    animation-duration: 16s;
 }
 
-/*animation1:  T */
+/* T */
 @keyframes animationaT {
     0%, 25% {
         /*transform: scale(0);*/
@@ -43,9 +45,9 @@ html, body {margin: 0; height: 100%; overflow: hidden}
     animation-duration: 4s;
 }
 
-/*animation: Y */
+/* Y */
 @keyframes animationaY{
-    0%, 75% {
+    0%, 67% {
         transform: translateY(-200%) scale(-1,1);
     }
     100% {
@@ -54,35 +56,35 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 .aY{
     animation-name: animationaY;
-    animation-duration: 8s;
+    animation-duration: 6s;
 }
 
-/* animation: P1*/
+/* P1 */
 @keyframes animationaP1{
     0%, 67%  {
-        transform: translateY(-400%) scale(-1,1);
+        transform: translateX(1000%) scale(-1,1);
     }
     100% {
-        transform: translateY(0) scale(1,1);
+        transform: translateX(0) scale(1,1);
     }
 }
 .aP1{
     animation-name: animationaP1;
-    animation-duration: 6s;
+    animation-duration: 7s;
 }
 
-/* animation: O*/
+/* O */
 @keyframes animationaO{
-    0%, 67%  {
-        transform: translateY(-400%) scale(-1,1);
+    0%, 75%  {
+        transform: translateX(1000%) scale(-1,1);
     }
     100% {
-        transform: translateY(0) scale(1,1);
+        transform: translateX(0) scale(1,1);
     }
 }
 .aO{
     animation-name: animationaO;
-    animation-duration: 6s;
+    animation-duration: 8s;
 }
 
 /* G */
@@ -96,7 +98,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 .aG{
     animation-name: animationaG;
-    animation-duration: 10s;
+    animation-duration: 9s;
 }
 
 /* R */
@@ -124,7 +126,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 .aA{
     animation-name: animationaA;
-    animation-duration: 10s;
+    animation-duration: 11s;
 }
 
 /* P */
@@ -152,7 +154,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 .aH{
     animation-name: animationaH;
-    animation-duration: 12s;
+    animation-duration: 13s;
 }
 
 /* I */
@@ -166,7 +168,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 .aI{
     animation-name: animationaI;
-    animation-duration: 12s;
+    animation-duration: 14s;
 }
 
 /* E */
@@ -180,9 +182,12 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 }
 .aE{
     animation-name: animationaE;
-    animation-duration: 12s;
+    animation-duration: 15s;
 }
 
+
+
+/* static CSS */
 .headers{
     width: 1000px;
     margin: auto;
