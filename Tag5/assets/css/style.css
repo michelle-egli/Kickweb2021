@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bowlby One SC', cursive;
+    font-size: 10vw;
+    font-weight: 700;
+}
+
+
+.box.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(255, 230, 0);
+    color: black;
+    height: 100vw;
+    height: 80vh;
+}
+
+.box div {
+    font-weight: 700;
+    border: 10px rgb(215, 1, 223);
+    border: dotted black;
+    padding: 6px;
+    flex: 0 1 50px;
+    line-height: 120%;
+    background-color: rgba(255, 255, 255, 0.404);
+    order: 0;
+}
+
+
+@media screen and (max-width: 40em) {
+    .box.row {
+        background-color:rgb(192, 0, 218);
+        color:white;
+    }
+    .box div{
+        border: 5px dotted black;
+    }
+    .box div:nth-of-type(5) {
+        order: -1;
+    }
+
+    .box div:nth-of-type(3) {
+        order: -2;
+    }
+
+    .box div:nth-of-type(4) {
+        order: 1;
+    }
+}
